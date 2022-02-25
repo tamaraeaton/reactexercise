@@ -1,9 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./ThemeToggle.module.scss";
 import ToggleButton from "react-toggle-button";
 
-function ThemeToggle() {
+function ThemeToggle({ setTheme }) {
   const [toggleState, setToggleState] = useState(false);
+
+  const handleThemeChange = (event) => {
+    setToggleState(!toggleState);
+  };
+  useEffect(() => {
+    setTheme(!toggleState);
+  }, [setTheme, toggleState]);
 
   return (
     <div className={styles.ToggleBox}>
@@ -28,9 +35,7 @@ function ThemeToggle() {
         inactiveLabel={"🌞"}
         activeLabel={"🌛"}
         value={toggleState}
-        onToggle={(toggleState) => {
-          setToggleState(!toggleState);
-        }}
+        onToggle={handleThemeChange}
       />
     </div>
   );

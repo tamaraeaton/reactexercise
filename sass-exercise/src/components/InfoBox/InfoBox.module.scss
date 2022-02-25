@@ -1,8 +1,48 @@
+@import "../../styles/main.scss";
+
 .InfoBox {
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  margin: 3em;
+  border-radius: 3em;
+  border: solid #519872 5px;
 
-.ImageBox {
-}
+  &--light {
+    @include quaternary-color(lightmode);
+  }
+  &--dark {
+    @include quaternary-color(darkmode);
+  }
 
-.TextBox {
+  .ImageBox {
+    width: 13em;
+    height: 13em;
+    padding: 3em;
+    margin: 2em;
+    border: solid #3b5249 5px;
+    border-radius: 2.5em;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .TextBox {
+    padding: 3em;
+    border-radius: 3em;
+    font-size: $fs-medium;
+    &--light {
+      @include secondary-color(lightmode);
+    }
+    &--dark {
+      @include secondary-color(darkmode);
+    }
+  }
+
+  @include breakpoint(desktop) {
+    flex-direction: row;
+    .TextBox {
+      font-size: $fs-large;
+    }
+  }
 }
