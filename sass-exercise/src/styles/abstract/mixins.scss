@@ -18,6 +18,7 @@ BREAKPOINTS
 Define Mixins for Dark and Light mode
 *********************/
 
+// Example
 @mixin primary-color($theme) {
   @if $theme == darkmode {
     background-color: #382933;
@@ -25,35 +26,5 @@ Define Mixins for Dark and Light mode
   } @else {
     background-color: #219f94;
     color: #e8e8a6;
-  }
-}
-
-@mixin secondary-color($theme) {
-  @if $theme == darkmode {
-    background-color: #3b5249;
-    color: #f2f5c8;
-  } @else {
-    background-color: #c1deae;
-    color: #382933;
-  }
-}
-
-@mixin tertiary-color($theme) {
-  @if $theme == darkmode {
-    background-color: #519872;
-    color: #f2f5c8;
-  } @else {
-    background-color: #f2f5c8;
-    color: #219f94;
-  }
-}
-
-@mixin quaternary-color($theme) {
-  @if $theme == darkmode {
-    background-color: #a4b494;
-    color: #382933;
-  } @else {
-    background-color: #e8e8a6;
-    color: #3b5249;
   }
 }

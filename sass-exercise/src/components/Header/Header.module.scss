@@ -1,39 +1,24 @@
 @import "../../styles/main.scss";
 
 .HeaderContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 280px;
-
+  /* To Do */
   img {
     height: 10em;
     padding: 3em 0 3em 0;
   }
 
   h1 {
-    font-size: $fs-super-large;
-    font-family: $f-secondary;
+    /* To Do */
   }
 
   &--dark {
-    @include primary-color(darkmode);
+    /* To Do */
   }
   &--light {
-    @include primary-color(lightmode);
+    /* To Do */
   }
 
   @include breakpoint(desktop) {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 5em;
-
-    img {
-      height: 15em;
-      padding: 6em 2em 6em 0;
-    }
-    h1 {
-      font-size: $fs-super-extreme-large;
-    }
+    /* To Do */
   }
 }
