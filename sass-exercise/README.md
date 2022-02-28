@@ -1,4 +1,33 @@
-# Getting Started with Create React App
+# SASS Exercise - Webpage: Inflora
+
+### This repository was created to let you exercise some SASS, using nested styling, mixins and variables.
+
+## Main Goal
+
+The JavaScript code for the wonderful Webpage "Inflora" has been provided. The only thing you have to do is: Make it pretty by using SASS!
+Here are Screenshots of a finalized responsive Version.
+One of the main style functionalities is a switch between a dark and a light theme.
+As mentioned already, the JS functionality for that is already given!
+
+Here is a possible Desktop View:
+!["Desktop Light Version"](images/Desktop-Light.png)
+!["Desktop Dark Version"](images/Desktop-Dark.png)
+
+And a possible Mobile View:
+!["Mobile Light Version"](images/Mobile-Light.png)
+!["Mobile Dark Version"](images/Mobile-Dark.png)
+
+The colors are given as variables as well, however: Feel free to colors the style the way you want it!
+
+## Requirements
+
+1. Make a responsive Webpage (different on desktop and mobile)
+2. Use mixins! (An example is given within the code)
+3. Use variables! (Examples are given within the code)
+4. Colors change by toggling the theme button
+5. Enjoy!
+
+###################################################################################################
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

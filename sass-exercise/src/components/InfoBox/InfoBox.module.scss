@@ -41,6 +41,9 @@
 
   @include breakpoint(desktop) {
     flex-direction: row;
+    &--reverse {
+      flex-direction: row-reverse;
+    }
     .TextBox {
       font-size: $fs-large;
     }
