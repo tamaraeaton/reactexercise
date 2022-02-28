@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import styles from "./ThemeToggle.module.scss";
 import ToggleButton from "react-toggle-button";
 
 function ThemeToggle({ setTheme }) {
@@ -13,9 +12,8 @@ function ThemeToggle({ setTheme }) {
   }, [setTheme, toggleState]);
 
   return (
-    <div className={styles.ToggleBox}>
+    <div>
       <ToggleButton
-        className={styles.Toggle}
         colors={{
           activeThumb: {
             base: "#e8e8a6",
