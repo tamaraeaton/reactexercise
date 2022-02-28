@@ -5,17 +5,9 @@
 ## Main Goal
 
 The JavaScript code for the wonderful Webpage "Inflora" has been provided. The only thing you have to do is: Make it pretty by using SASS!
-Here are Screenshots of a finalized responsive Version.
+Here are Screenshots of a finalized responsive Version (checkout the images folder)
 One of the main style functionalities is a switch between a dark and a light theme.
 As mentioned already, the JS functionality for that is already given!
-
-Here is a possible Desktop View:
-<img src="images/Desktop-Light.png" alt="Desktop Light Version" width="50"/>
-<img src="images/Desktop-Dark.png" alt="Desktop Dark Version" width="50"/>
-
-<img src="images/Mobile-Light.png" alt="Mobile Light Version" width="50"/>
-<img src="images/Mobile-Dark.png" alt="Mobile Dark Version" width="50"/>
-
 The colors are given as variables as well, however: Feel free to colors the style the way you want it!
 
 ## Requirements
