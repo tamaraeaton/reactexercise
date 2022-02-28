@@ -10,11 +10,11 @@ One of the main style functionalities is a switch between a dark and a light the
 As mentioned already, the JS functionality for that is already given!
 
 Here is a possible Desktop View:
-<img src="images/Desktop-Light.png" alt="Desktop Light Version" width="200"/>
-<img src="images/Desktop-Dark.png" alt="Desktop Dark Version" width="200"/>
+<img src="images/Desktop-Light.png" alt="Desktop Light Version" width="50"/>
+<img src="images/Desktop-Dark.png" alt="Desktop Dark Version" width="50"/>
 
-<img src="images/Mobile-Light.png" alt="Mobile Light Version" width="200"/>
-<img src="images/Mobile-Dark.png" alt="Mobile Dark Version" width="200"/>
+<img src="images/Mobile-Light.png" alt="Mobile Light Version" width="50"/>
+<img src="images/Mobile-Dark.png" alt="Mobile Dark Version" width="50"/>
 
 The colors are given as variables as well, however: Feel free to colors the style the way you want it!
 
