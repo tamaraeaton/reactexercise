@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import styles from "./ThemeToggle.module.scss";
 import ToggleButton from "react-toggle-button";
 
 function ThemeToggle({ setTheme }) {
@@ -13,9 +14,6 @@ function ThemeToggle({ setTheme }) {
 
   return (
     <div>
-<<<<<<< HEAD:sass-exercise/src/components/ThemeToggle/ThemeToggle.js
-      <ToggleButton
-=======
       <div className={styles.sronly}>
         <p>
           The current theme of the webpage is
@@ -24,7 +22,6 @@ function ThemeToggle({ setTheme }) {
       </div>
       <ToggleButton
         size="large"
->>>>>>> 60f53dc55aa8ac34f09aa342f40f3cc86d7db77d:inflora-react-exercise/src/components/ThemeToggle/ThemeToggle.js
         colors={{
           activeThumb: {
             base: "#e8e8a6",
