@@ -8,11 +8,11 @@ The JavaScript code for the wonderful Webpage "Inflora" has been provided. The o
 Here are Screenshots of a finalized responsive Version (checkout the images folder)
 One of the main style functionalities is a switch between a dark and a light theme.
 As mentioned already, the JS functionality for that is already given!
-The colors are given as variables as well, however: Feel free to colors the style the way you want it!
+The colors are given as variables as well, however: Feel free to choose colors and style the way you want it!
 
 ## Requirements
 
-1. Make a responsive Webpage (different on desktop and mobile)
+1. Make a responsive Webpage (different on desktop and mobile) (checkout images folder)
 2. Use mixins! (An example is given within the code)
 3. Use variables! (Examples are given within the code)
 4. Colors change by toggling the theme button
