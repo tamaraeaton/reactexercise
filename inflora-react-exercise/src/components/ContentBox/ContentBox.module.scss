@@ -1,0 +1,11 @@
+@import "../../styles/main.scss";
+.ContentBox {
+  margin: 0;
+  padding: 2em;
+  &--dark {
+    @include primary-color(darkmode);
+  }
+  &--light {
+    @include primary-color(lightmode);
+  }
+}
