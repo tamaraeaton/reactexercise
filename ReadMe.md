@@ -1,8 +1,8 @@
-# SASS Exercise - Webpage: Inflora
+# Exercise Repository - Webpage: Inflora
 
-### This repository was created to let you exercise some SASS, using nested styling, mixins and variables.
+### This repository was created to practice key skills for the React Apprenticeship Program.
 
-## Main Goal
+## 1. Exercise: SASS
 
 The JavaScript code for the wonderful Webpage "Inflora" has been provided. The only thing you have to do is: Make it pretty by using SASS!
 Here are Screenshots of a finalized responsive Version (checkout the images folder)
@@ -17,6 +17,13 @@ The colors are given as variables as well, however: Feel free to choose colors a
 3. Use variables! (Examples are given within the code)
 4. Colors change by toggling the theme button
 5. Enjoy!
+
+## 2. Exercise: Storybook
+
+After you built and styled your components, create Storybooks for each component!
+
+
+---------------------------------------------------------------------------------------------------
 
 ###################################################################################################
 
