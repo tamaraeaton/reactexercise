@@ -2,8 +2,6 @@
 
 /* Example of mixin usage */
 .ContentBox {
-  margin: 0;
-  padding: 2em;
   &--dark {
     @include primary-color(darkmode);
   }

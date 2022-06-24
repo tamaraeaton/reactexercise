@@ -1,0 +1,46 @@
+@import "../../styles/main.scss";
+/* To Do */
+
+
+.ContentBox {
+    // background-color: red;
+    // justify-content: space-around;
+    // margin: 2em;
+    // border-radius: 15px;
+}
+
+.ImageBox {
+    border: solid 3px black;
+    width: 25%;
+    height: 20%;
+    margin: 3em;
+    border-radius: 15px;
+}
+ 
+.InfoBox {
+ display: flex;
+ justify-content: space-between;
+//  justify-self: center;
+background-color: $c-beige;
+width: 80%;
+// height: 70%;
+// align-self: center;
+margin-left: 10em;
+// margin-top: 20%;
+// bottom: 15px;
+}
+
+.TextBox {
+    // align-self: center;
+    // margin-top: 20px;
+    // flex-direction: column;
+    background-color: $c-pastellgreen;
+    display: flex;
+    justify-content: baseline;
+    color: black;
+    font-family: $f-primary;
+    padding: 3em;
+    margin-right: 1em;
+    margin-top: 4em;
+    border-radius: 15px;
+}

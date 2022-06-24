@@ -21,7 +21,7 @@ function ThemeToggle({ setTheme }) {
         </p>
       </div>
       <ToggleButton
-        size="large"
+        // size="large"
         colors={{
           activeThumb: {
             base: "#e8e8a6",
@@ -43,10 +43,10 @@ function ThemeToggle({ setTheme }) {
         value={toggleState}
         onToggle={handleThemeChange}
         containerStyle={{ display: "inline-block", width: "100px" }}
-        trackStyle={{ width: "100px", height: "50px" }}
+        trackStyle={{ width: "100px", height: "30px" }}
         thumbAnimateRange={[1, 80]}
-        activeLabelStyle={{ fontSize: "30px" }}
-        inactiveLabelStyle={{ fontSize: "30px" }}
+        activeLabelStyle={{ fontSize: "10px" }}
+        inactiveLabelStyle={{ fontSize: "10px" }}
       />
     </div>
   );
