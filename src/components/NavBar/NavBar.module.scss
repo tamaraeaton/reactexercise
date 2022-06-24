@@ -2,10 +2,12 @@
 
 .NavBarContainer {
      /* To Do */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5em;
+  // display: flex;
+  // align-items: center;
+  // width: 100%;
+  // justify-content: space-between;
+  // padding: 1.5em;
+
   &--light {
     background-color: $c-pastellgreen;
   }
@@ -18,14 +20,20 @@
 
   .NavigationLinks {
     /* To Do */
-    display: flex;
-  
-    
+    // display: flex;
+    margin: 0;
+    padding: 1em 0;
+    // justify-content: center;
+    // align-items: center;
+    // align-content: center;
+    // text-align: center;
+   
 
     li {
       margin: 1em;
       list-style-type: none;
-   
+      // align-items: center;
+      // justify-items: center;
 
        .Link {
         /* To Do */
@@ -34,7 +42,9 @@
         font-style: $f-primary;
         padding: 1em;
         display: block;
-        width: 100px;
+        width: 15em;
+        // align-items: center;
+        justify-content: center;
         font-weight:bold;
         border-radius: 1em;
         text-align: center;

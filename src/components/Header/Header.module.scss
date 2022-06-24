@@ -3,18 +3,20 @@
 .HeaderContainer {
   display: flex;
   align-items: center;
+  justify-content: center;
   
   
   img {
-    height: 12em;
-    padding: 3em 0 3em 0;
-    margin-left: 4em;
-    margin-right: 2em;
+    // height: 12em;
+    // padding: 3em 0 3em 0;
+    // margin-left: 4em;
+    // margin-right: 2em;
+    width: 55px;
   }
 
   h1 {
     font-family: $f-secondary;
-    font-size: $fs-super-large;
+    font-size: $fs-larger;
   }
 
   &--dark {
@@ -25,6 +27,22 @@
   }
 
   @include breakpoint(desktop) {
-    /* To Do */
+ /* To Do */
+    justify-content: flex-start;
+    
+  
+  
+  img {
+    // height: 12em;
+    // padding: 3em 0 3em 0;
+    // margin-left: 4em;
+    // margin-right: 2em;
+    width: 125px;
+  }
+
+  h1 {
+    font-family: $f-secondary;
+    font-size: $fs-super-large;
+  }
   }
 }

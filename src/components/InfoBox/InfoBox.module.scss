@@ -1,56 +1,49 @@
 @import "../../styles/main.scss";
 /* To Do */
 
-
 .ImageBox {
-    border: solid 3px black;
-    width: 200px;
-    height: auto;
-    margin: 3em;
-    border-radius: 15px;
+  border: solid 3px black;
+  width: 200px;
+  height: auto;
+  margin: 3em;
+  border-radius: 15px;
 }
- 
+
 .InfoBox {
-display: flex;
-flex-direction: row;
-align-items: center;
-// justify-content: space-between;
-border-radius: 15px;
-&--light {
-background-color: $c-beige;
-}
-&--dark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 15px;
+  &--light {
+    background-color: $c-beige;
+  }
+  &--dark {
     background-color: $c-succulentgreen;
-}
-width: 80%;
+  }
+  width: 80%;
 
-
-@include breakpoint(desktop) {
+  @include breakpoint(desktop) {
     display: flex;
     align-items: center;
 
     &--reverse {
-        flex-direction: row-reverse;
+      flex-direction: row-reverse;
     }
-}
+  }
 }
 
 .TextBox {
-    display: flex;
-    font-family: $f-primary;
-    padding: 1.5em;
-    margin: 1em;
-    border-radius: 15px;
+  display: flex;
+  font-family: $f-primary;
+  padding: 1.5em;
+  margin: 1em;
+  border-radius: 15px;
 
-    &--light {
-        background-color: $c-pastellgreen;
-        color: black;
-    }
-    &--dark {
-        background-color: $c-evergreen;
-    }
-    
- 
-   
- 
+  &--light {
+    background-color: $c-pastellgreen;
+    color: black;
+  }
+  &--dark {
+    background-color: $c-evergreen;
+  }
 }

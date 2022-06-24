@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header isDarkTheme={isDarkTheme} />
       <Navbar isDarkTheme={isDarkTheme} setTheme={setDarkTheme} />
-      <ContentBox isDarkTheme={isDarkTheme} />
+      {/* <ContentBox isDarkTheme={isDarkTheme} /> */}
     </div>
   );
 }
