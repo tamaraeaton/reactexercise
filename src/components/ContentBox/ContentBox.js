@@ -10,12 +10,14 @@ function ContentBox({ isDarkTheme }) {
   const theme = isDarkTheme ? "dark" : "light";
   return (
     <div className={`${styles.ContentBox} ${styles[`ContentBox--${theme}`]}`}>
+      <br/>
       <InfoBox
         isDarkTheme={isDarkTheme}
         image={Sprout}
         alt={"Cute Sprout"}
         text={infoText1}
       />
+      <br/>
       <InfoBox
         isDarkTheme={isDarkTheme}
         image={WaterCan}
@@ -23,12 +25,14 @@ function ContentBox({ isDarkTheme }) {
         text={infoText2}
         reverse={true}
       />
+      <br/>
       <InfoBox
         isDarkTheme={isDarkTheme}
         image={WheelBarrow}
         alt={"Cute WheelBarrow"}
         text={infoText3}
       />
+      <br/>
     </div>
   );
 }

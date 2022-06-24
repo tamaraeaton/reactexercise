@@ -6,7 +6,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 1.5em;
-  background-color: $c-pastellgreen;
+  &--light {
+    background-color: $c-pastellgreen;
+  }
+  &--dark {
+    background-color: $c-evergreen;
+  }
  
   @include breakpoint(desktop) {
   }
@@ -24,26 +29,32 @@
 
        .Link {
         /* To Do */
-        background-color: $c-lightbeige;
         text-decoration: none;
         color: $c-grassgreen;
         font-style: $f-primary;
         padding: 1em;
-        width: 100px;
         display: block;
+        width: 100px;
         font-weight:bold;
         border-radius: 1em;
+        text-align: center;
         &--light {
           /* To Do */
           background-color: $c-lightbeige;
           &:hover {
             /* To Do */
+            background-color: $c-darkturqoise;
+            color: $c-lightbeige;
           }
         }
         &--dark {
           /* To Do */
+          background-color: $c-grassgreen;
+          color: $c-lightbeige;
           &:hover {
             /* To Do */
+            background-color: $c-woodbrown;
+
           }
         }
       }

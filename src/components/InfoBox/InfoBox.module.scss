@@ -2,45 +2,55 @@
 /* To Do */
 
 
-.ContentBox {
-    // background-color: red;
-    // justify-content: space-around;
-    // margin: 2em;
-    // border-radius: 15px;
-}
-
 .ImageBox {
     border: solid 3px black;
-    width: 25%;
-    height: 20%;
+    width: 200px;
+    height: auto;
     margin: 3em;
     border-radius: 15px;
 }
  
 .InfoBox {
- display: flex;
- justify-content: space-between;
-//  justify-self: center;
+display: flex;
+justify-content: space-between;
+border-radius: 15px;
+&--light {
 background-color: $c-beige;
+}
+&--dark {
+    background-color: $c-succulentgreen;
+}
 width: 80%;
-// height: 70%;
-// align-self: center;
-margin-left: 10em;
-// margin-top: 20%;
-// bottom: 15px;
+
+
+@include breakpoint(desktop) {
+    display: flex;
+    align-items: center;
+
+    &--reverse {
+        flex-direction: row-reverse;
+    }
+}
 }
 
 .TextBox {
-    // align-self: center;
-    // margin-top: 20px;
-    // flex-direction: column;
-    background-color: $c-pastellgreen;
+    &--light {
+        background-color: $c-pastellgreen;
+    }
+    &--dark {
+        background-color: $c-evergreen;
+    }
+    
     display: flex;
-    justify-content: baseline;
-    color: black;
+    &--dark {
+        color: $c-succulentgreen;
+    }
+    &--light {
+         color: black;
+    }
+   
     font-family: $f-primary;
     padding: 3em;
-    margin-right: 1em;
-    margin-top: 4em;
+    margin: 1em;
     border-radius: 15px;
 }

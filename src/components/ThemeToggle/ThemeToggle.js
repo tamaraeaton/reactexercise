@@ -45,8 +45,8 @@ function ThemeToggle({ setTheme }) {
         containerStyle={{ display: "inline-block", width: "100px" }}
         trackStyle={{ width: "100px", height: "30px" }}
         thumbAnimateRange={[1, 80]}
-        activeLabelStyle={{ fontSize: "10px" }}
-        inactiveLabelStyle={{ fontSize: "10px" }}
+        activeLabelStyle={{ fontSize: "20px" }}
+        inactiveLabelStyle={{ fontSize: "20px" }}
       />
     </div>
   );
