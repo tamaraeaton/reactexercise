@@ -12,7 +12,9 @@
  
 .InfoBox {
 display: flex;
-justify-content: space-between;
+flex-direction: row;
+align-items: center;
+// justify-content: space-between;
 border-radius: 15px;
 &--light {
 background-color: $c-beige;
@@ -34,23 +36,21 @@ width: 80%;
 }
 
 .TextBox {
+    display: flex;
+    font-family: $f-primary;
+    padding: 1.5em;
+    margin: 1em;
+    border-radius: 15px;
+
     &--light {
         background-color: $c-pastellgreen;
+        color: black;
     }
     &--dark {
         background-color: $c-evergreen;
     }
     
-    display: flex;
-    &--dark {
-        color: $c-succulentgreen;
-    }
-    &--light {
-         color: black;
-    }
+ 
    
-    font-family: $f-primary;
-    padding: 3em;
-    margin: 1em;
-    border-radius: 15px;
+ 
 }
