@@ -1,12 +1,10 @@
 @import "../../styles/main.scss";
 
 .NavBarContainer {
-     /* To Do */
-  // display: flex;
-  // align-items: center;
-  // width: 100%;
-  // justify-content: space-between;
-  // padding: 1.5em;
+  /* To Do */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   &--light {
     background-color: $c-pastellgreen;
@@ -14,28 +12,29 @@
   &--dark {
     background-color: $c-evergreen;
   }
- 
+
   @include breakpoint(desktop) {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    justify-content: space-between;
+    padding-right: 2em;
+    padding-left: 1em;
   }
 
   .NavigationLinks {
     /* To Do */
-    // display: flex;
+    display: flex;
+    flex-direction: column;
     margin: 0;
+    align-items: center;
     padding: 1em 0;
-    // justify-content: center;
-    // align-items: center;
-    // align-content: center;
-    // text-align: center;
-   
 
     li {
       margin: 1em;
       list-style-type: none;
-      // align-items: center;
-      // justify-items: center;
 
-       .Link {
+      .Link {
         /* To Do */
         text-decoration: none;
         color: $c-grassgreen;
@@ -43,9 +42,10 @@
         padding: 1em;
         display: block;
         width: 15em;
-        // align-items: center;
-        justify-content: center;
-        font-weight:bold;
+        @include breakpoint(desktop) {
+          width: 6em;
+        }
+        font-weight: bold;
         border-radius: 1em;
         text-align: center;
         &--light {
@@ -64,18 +64,25 @@
           &:hover {
             /* To Do */
             background-color: $c-woodbrown;
-
           }
         }
       }
     }
     @include breakpoint(desktop) {
       /* To Do */
+      display: flex;
+      flex-direction: row;
     }
   }
 
   .ToggleButton {
     /* To Do */
-    
+    align-self: center;
+    margin-bottom: 2em;
+
+    @include breakpoint(desktop) {
+      /* To Do */
+      margin-top: 1.5em;
+    }
   }
 }

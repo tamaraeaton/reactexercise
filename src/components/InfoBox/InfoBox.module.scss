@@ -3,17 +3,18 @@
 
 .ImageBox {
   border: solid 3px black;
-  width: 200px;
+  width: 150px;
   height: auto;
-  margin: 3em;
   border-radius: 15px;
+  align-self: center;
 }
 
 .InfoBox {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   border-radius: 15px;
+  padding: 2em;
   &--light {
     background-color: $c-beige;
   }
@@ -24,7 +25,7 @@
 
   @include breakpoint(desktop) {
     display: flex;
-    align-items: center;
+    flex-direction: row;
 
     &--reverse {
       flex-direction: row-reverse;
