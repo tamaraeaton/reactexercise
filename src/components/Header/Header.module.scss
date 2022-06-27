@@ -3,18 +3,15 @@
 .HeaderContainer {
   display: flex;
   align-items: center;
-  
-  
+  justify-content: center;
+
   img {
-    height: 12em;
-    padding: 3em 0 3em 0;
-    margin-left: 4em;
-    margin-right: 2em;
+    width: 55px;
   }
 
   h1 {
     font-family: $f-secondary;
-    font-size: $fs-super-large;
+    font-size: $fs-larger;
   }
 
   &--dark {
@@ -26,5 +23,17 @@
 
   @include breakpoint(desktop) {
     /* To Do */
+    justify-content: flex-start;
+    
+
+    img {
+      width: 125px;
+      margin-left: 2em;
+    }
+
+    h1 {
+      font-family: $f-secondary;
+      font-size: $fs-super-large;
+    }
   }
 }
