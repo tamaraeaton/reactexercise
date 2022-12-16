@@ -1,0 +1,1 @@
+const InfoBox = require("./InfoBox");
